@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InventarioAppTeoria
 {
-    public partial class HistorialMovimientos : Form
+    public partial class frmHistorialMovimientos : Form
     {
-        public HistorialMovimientos()
+        public frmHistorialMovimientos()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InventarioAppTeoria
 {
-    public partial class GestionPedidos : Form
+    public partial class frmGestionPedidos : Form
     {
-        public GestionPedidos()
+        public frmGestionPedidos()
         {
             InitializeComponent();
         }

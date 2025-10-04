@@ -1,6 +1,6 @@
 ﻿namespace InventarioAppTeoria
 {
-    partial class GestionPedidos
+    partial class frmGestionPedidos
     {
         /// <summary>
         /// Required designer variable.
@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // GestionPedidos
+            // frmGestionPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "GestionPedidos";
+            this.Name = "frmGestionPedidos";
             this.Text = "Gestion De Pedidos";
             this.ResumeLayout(false);
 

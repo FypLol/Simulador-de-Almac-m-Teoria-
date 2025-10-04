@@ -1,6 +1,6 @@
 ﻿namespace InventarioAppTeoria
 {
-    partial class Form1
+    partial class frm_Login
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
+            this.Name = "frm_Login";
             this.Text = "Login";
             this.ResumeLayout(false);
 

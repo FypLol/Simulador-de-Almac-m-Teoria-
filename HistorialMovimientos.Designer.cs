@@ -1,6 +1,6 @@
 ﻿namespace InventarioAppTeoria
 {
-    partial class HistorialMovimientos
+    partial class frmHistorialMovimientos
     {
         /// <summary>
         /// Required designer variable.
@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // HistorialMovimientos
+            // frmHistorialMovimientos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "HistorialMovimientos";
+            this.Name = "frmHistorialMovimientos";
             this.Text = "Historial de Movimientos";
             this.ResumeLayout(false);
 
