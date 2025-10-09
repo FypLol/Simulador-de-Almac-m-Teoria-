@@ -44,13 +44,15 @@
             this.lbl_nombre = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.gbox_agregar = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_registro)).BeginInit();
             this.gbox_agregar.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(239, 201);
+            this.button1.Location = new System.Drawing.Point(144, 204);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(242, 23);
             this.button1.TabIndex = 0;
@@ -94,36 +96,36 @@
             // 
             // tbox_nombre
             // 
-            this.tbox_nombre.Location = new System.Drawing.Point(448, 90);
+            this.tbox_nombre.Location = new System.Drawing.Point(663, 89);
             this.tbox_nombre.Name = "tbox_nombre";
-            this.tbox_nombre.Size = new System.Drawing.Size(158, 20);
+            this.tbox_nombre.Size = new System.Drawing.Size(344, 20);
             this.tbox_nombre.TabIndex = 6;
             // 
             // tbox_origen
             // 
             this.tbox_origen.Location = new System.Drawing.Point(144, 170);
             this.tbox_origen.Name = "tbox_origen";
-            this.tbox_origen.Size = new System.Drawing.Size(158, 20);
+            this.tbox_origen.Size = new System.Drawing.Size(307, 20);
             this.tbox_origen.TabIndex = 7;
             // 
             // tbox_peso
             // 
             this.tbox_peso.Location = new System.Drawing.Point(144, 89);
             this.tbox_peso.Name = "tbox_peso";
-            this.tbox_peso.Size = new System.Drawing.Size(158, 20);
+            this.tbox_peso.Size = new System.Drawing.Size(307, 20);
             this.tbox_peso.TabIndex = 7;
             // 
             // tbox_tipodemercaderia
             // 
             this.tbox_tipodemercaderia.Location = new System.Drawing.Point(144, 128);
             this.tbox_tipodemercaderia.Name = "tbox_tipodemercaderia";
-            this.tbox_tipodemercaderia.Size = new System.Drawing.Size(158, 20);
+            this.tbox_tipodemercaderia.Size = new System.Drawing.Size(307, 20);
             this.tbox_tipodemercaderia.TabIndex = 8;
             // 
             // lbl_dni
             // 
             this.lbl_dni.AutoSize = true;
-            this.lbl_dni.Location = new System.Drawing.Point(364, 134);
+            this.lbl_dni.Location = new System.Drawing.Point(541, 131);
             this.lbl_dni.Name = "lbl_dni";
             this.lbl_dni.Size = new System.Drawing.Size(26, 13);
             this.lbl_dni.TabIndex = 9;
@@ -131,15 +133,15 @@
             // 
             // tbox_dni
             // 
-            this.tbox_dni.Location = new System.Drawing.Point(448, 131);
+            this.tbox_dni.Location = new System.Drawing.Point(663, 124);
             this.tbox_dni.Name = "tbox_dni";
-            this.tbox_dni.Size = new System.Drawing.Size(158, 20);
+            this.tbox_dni.Size = new System.Drawing.Size(344, 20);
             this.tbox_dni.TabIndex = 10;
             // 
             // lbl_celular
             // 
             this.lbl_celular.AutoSize = true;
-            this.lbl_celular.Location = new System.Drawing.Point(352, 170);
+            this.lbl_celular.Location = new System.Drawing.Point(541, 176);
             this.lbl_celular.Name = "lbl_celular";
             this.lbl_celular.Size = new System.Drawing.Size(56, 13);
             this.lbl_celular.TabIndex = 11;
@@ -147,15 +149,15 @@
             // 
             // tbox_celular
             // 
-            this.tbox_celular.Location = new System.Drawing.Point(448, 174);
+            this.tbox_celular.Location = new System.Drawing.Point(663, 173);
             this.tbox_celular.Name = "tbox_celular";
-            this.tbox_celular.Size = new System.Drawing.Size(158, 20);
+            this.tbox_celular.Size = new System.Drawing.Size(344, 20);
             this.tbox_celular.TabIndex = 12;
             // 
             // lbl_nombre
             // 
             this.lbl_nombre.AutoSize = true;
-            this.lbl_nombre.Location = new System.Drawing.Point(330, 92);
+            this.lbl_nombre.Location = new System.Drawing.Point(506, 92);
             this.lbl_nombre.Name = "lbl_nombre";
             this.lbl_nombre.Size = new System.Drawing.Size(100, 13);
             this.lbl_nombre.TabIndex = 13;
@@ -164,7 +166,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(275, 55);
+            this.label7.Location = new System.Drawing.Point(553, 16);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(82, 13);
             this.label7.TabIndex = 14;
@@ -172,6 +174,8 @@
             // 
             // gbox_agregar
             // 
+            this.gbox_agregar.Controls.Add(this.button3);
+            this.gbox_agregar.Controls.Add(this.button2);
             this.gbox_agregar.Controls.Add(this.label7);
             this.gbox_agregar.Controls.Add(this.lbl_nombre);
             this.gbox_agregar.Controls.Add(this.button1);
@@ -188,10 +192,28 @@
             this.gbox_agregar.Controls.Add(this.tbox_peso);
             this.gbox_agregar.Location = new System.Drawing.Point(25, 22);
             this.gbox_agregar.Name = "gbox_agregar";
-            this.gbox_agregar.Size = new System.Drawing.Size(615, 233);
+            this.gbox_agregar.Size = new System.Drawing.Size(1097, 233);
             this.gbox_agregar.TabIndex = 15;
             this.gbox_agregar.TabStop = false;
-            this.gbox_agregar.Text = "groupBox1";
+            this.gbox_agregar.Text = "gobox_Datos del envio";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(448, 204);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(242, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "EDITAR";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(754, 204);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(242, 23);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "ELIMINAR";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // frmGestion_de_Inventario
             // 
@@ -227,5 +249,7 @@
         private System.Windows.Forms.Label lbl_nombre;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox gbox_agregar;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
