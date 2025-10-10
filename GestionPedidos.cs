@@ -21,7 +21,7 @@ namespace GestionPedidos
             // Solicitar el nombre del pedido al usuario
             string nombrePedido = Microsoft.VisualBasic.Interaction.InputBox(
                 "Ingrese la descripción del pedido:",
-                "Nuevo Pedido",
+                "Nuevo Pedido por confirmar",
                 "");
 
             if (!string.IsNullOrWhiteSpace(nombrePedido))
@@ -91,6 +91,11 @@ namespace GestionPedidos
 
             // Actualizar contador total
             lblContador.Text = $"Total en cola: {colaPedidos.Count}";
+        }
+
+        private void lstPedidosEspera_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
