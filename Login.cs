@@ -17,5 +17,11 @@ namespace InventarioAppTeoria
         {
             InitializeComponent();
         }
+
+        private void frm_Login_Load(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }

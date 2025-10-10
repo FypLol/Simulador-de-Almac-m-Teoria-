@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "frm_Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.frm_Login_Load);
             this.ResumeLayout(false);
 
         }

@@ -44,20 +44,21 @@
             this.lbl_nombre = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.gbox_agregar = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_registro)).BeginInit();
             this.gbox_agregar.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Chartreuse;
             this.button1.Location = new System.Drawing.Point(144, 204);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(242, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "AGREGAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // lbl_peso
             // 
@@ -79,6 +80,7 @@
             // 
             // dgv_registro
             // 
+            this.dgv_registro.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgv_registro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_registro.Location = new System.Drawing.Point(25, 261);
             this.dgv_registro.Name = "dgv_registro";
@@ -166,9 +168,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(553, 16);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(370, 16);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 13);
+            this.label7.Size = new System.Drawing.Size(360, 55);
             this.label7.TabIndex = 14;
             this.label7.Text = "Datos del Envio";
             // 
@@ -195,30 +198,32 @@
             this.gbox_agregar.Size = new System.Drawing.Size(1097, 233);
             this.gbox_agregar.TabIndex = 15;
             this.gbox_agregar.TabStop = false;
-            this.gbox_agregar.Text = "gobox_Datos del envio";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(448, 204);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(242, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "EDITAR";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Crimson;
             this.button3.Location = new System.Drawing.Point(754, 204);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(242, 23);
             this.button3.TabIndex = 16;
             this.button3.Text = "ELIMINAR";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Tan;
+            this.button2.Location = new System.Drawing.Point(448, 204);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(242, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "EDITAR";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // frmGestion_de_Inventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(1164, 649);
             this.Controls.Add(this.dgv_registro);
             this.Controls.Add(this.gbox_agregar);
