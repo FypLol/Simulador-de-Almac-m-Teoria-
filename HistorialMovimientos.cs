@@ -12,9 +12,31 @@ namespace InventarioAppTeoria
 {
     public partial class frmHistorialMovimientos : Form
     {
+        private HistorialMovimientos historial;
         public frmHistorialMovimientos()
         {
             InitializeComponent();
+            historial = new HistorialMovimientos();
+        }
+
+        private void btnAgregarMovimiento_Click(object sender, EventArgs e)
+        {
+            string movimiento = "Producto A retirado";
+        }
+
+        private void listBoxMovimientos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmHistorialMovimientos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDeshacerMovimiento_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

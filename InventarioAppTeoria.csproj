@@ -64,6 +64,7 @@
     <Compile Include="GestionPedidos.Designer.cs">
       <DependentUpon>GestionPedidos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Historialmovimiento.cs" />
     <Compile Include="HistorialMovimientos.cs">
       <SubType>Form</SubType>
     </Compile>
