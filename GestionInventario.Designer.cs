@@ -59,6 +59,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "AGREGAR";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lbl_peso
             // 
@@ -170,9 +171,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(347, -13);
+            this.label7.Location = new System.Drawing.Point(347, 16);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(539, 82);
+            this.label7.Size = new System.Drawing.Size(360, 55);
             this.label7.TabIndex = 14;
             this.label7.Text = "Datos del Envio";
             // 
