@@ -40,10 +40,10 @@
             // 
             this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.lblTitulo.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblTitulo.Location = new System.Drawing.Point(15, 16);
+            this.lblTitulo.Location = new System.Drawing.Point(16, 0);
             this.lblTitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(420, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(420, 43);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "GESTIÓN DE PEDIDOS";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -67,7 +67,7 @@
             this.lblTituloSiguiente.Location = new System.Drawing.Point(7, 8);
             this.lblTituloSiguiente.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTituloSiguiente.Name = "lblTituloSiguiente";
-            this.lblTituloSiguiente.Size = new System.Drawing.Size(405, 20);
+            this.lblTituloSiguiente.Size = new System.Drawing.Size(405, 31);
             this.lblTituloSiguiente.TabIndex = 0;
             this.lblTituloSiguiente.Text = "🎯 SIGUIENTE EN LA COLA:";
             // 
@@ -75,7 +75,7 @@
             // 
             this.lblSiguiente.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.lblSiguiente.ForeColor = System.Drawing.Color.Gray;
-            this.lblSiguiente.Location = new System.Drawing.Point(7, 29);
+            this.lblSiguiente.Location = new System.Drawing.Point(3, 39);
             this.lblSiguiente.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSiguiente.Name = "lblSiguiente";
             this.lblSiguiente.Size = new System.Drawing.Size(405, 25);
@@ -89,7 +89,7 @@
             this.lblContador.Location = new System.Drawing.Point(15, 134);
             this.lblContador.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContador.Name = "lblContador";
-            this.lblContador.Size = new System.Drawing.Size(150, 20);
+            this.lblContador.Size = new System.Drawing.Size(154, 38);
             this.lblContador.TabIndex = 2;
             this.lblContador.Text = "Total en cola: 0";
             // 
@@ -97,10 +97,10 @@
             // 
             this.lblTituloLista.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblTituloLista.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblTituloLista.Location = new System.Drawing.Point(15, 159);
+            this.lblTituloLista.Location = new System.Drawing.Point(23, 172);
             this.lblTituloLista.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTituloLista.Name = "lblTituloLista";
-            this.lblTituloLista.Size = new System.Drawing.Size(150, 20);
+            this.lblTituloLista.Size = new System.Drawing.Size(157, 33);
             this.lblTituloLista.TabIndex = 3;
             this.lblTituloLista.Text = "📋 Pedidos en Espera:";
             // 
@@ -109,11 +109,11 @@
             this.lstPedidosEspera.BackColor = System.Drawing.Color.White;
             this.lstPedidosEspera.Font = new System.Drawing.Font("Consolas", 10F);
             this.lstPedidosEspera.FormattingEnabled = true;
-            this.lstPedidosEspera.ItemHeight = 15;
-            this.lstPedidosEspera.Location = new System.Drawing.Point(15, 183);
+            this.lstPedidosEspera.ItemHeight = 23;
+            this.lstPedidosEspera.Location = new System.Drawing.Point(11, 222);
             this.lstPedidosEspera.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.lstPedidosEspera.Name = "lstPedidosEspera";
-            this.lstPedidosEspera.Size = new System.Drawing.Size(421, 109);
+            this.lstPedidosEspera.Size = new System.Drawing.Size(421, 96);
             this.lstPedidosEspera.TabIndex = 4;
             this.lstPedidosEspera.SelectedIndexChanged += new System.EventHandler(this.lstPedidosEspera_SelectedIndexChanged);
             // 
@@ -124,7 +124,7 @@
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(15, 317);
+            this.btnAgregar.Location = new System.Drawing.Point(7, 340);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(203, 40);
@@ -141,7 +141,7 @@
             this.btnDespachar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDespachar.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnDespachar.ForeColor = System.Drawing.Color.White;
-            this.btnDespachar.Location = new System.Drawing.Point(233, 317);
+            this.btnDespachar.Location = new System.Drawing.Point(233, 340);
             this.btnDespachar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnDespachar.Name = "btnDespachar";
             this.btnDespachar.Size = new System.Drawing.Size(203, 40);

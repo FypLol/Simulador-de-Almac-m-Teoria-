@@ -84,6 +84,7 @@
             this.dgv_registro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_registro.Location = new System.Drawing.Point(25, 261);
             this.dgv_registro.Name = "dgv_registro";
+            this.dgv_registro.RowHeadersWidth = 62;
             this.dgv_registro.Size = new System.Drawing.Size(1097, 376);
             this.dgv_registro.TabIndex = 4;
             // 
@@ -169,9 +170,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(370, 16);
+            this.label7.Location = new System.Drawing.Point(347, -13);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(360, 55);
+            this.label7.Size = new System.Drawing.Size(539, 82);
             this.label7.TabIndex = 14;
             this.label7.Text = "Datos del Envio";
             // 

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -47,14 +47,14 @@
             this.panel1.Size = new System.Drawing.Size(385, 217);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // button3
             // 
-            this.button1.Location = new System.Drawing.Point(38, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 69);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "HISTORIAL DE MOVIMIENTOS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button3.Location = new System.Drawing.Point(124, 115);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(140, 69);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "GESTION DE PEDIDOS";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -65,14 +65,14 @@
             this.button2.Text = "GESTION DE INVENTARIO";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // button1
             // 
-            this.button3.Location = new System.Drawing.Point(124, 115);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(140, 69);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "GESTION DE PEDIDOS";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(38, 29);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 69);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "HISTORIAL DE MOVIMIENTOS";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -88,7 +88,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
-            this.ClientSize = new System.Drawing.Size(719, 267);
+            this.ClientSize = new System.Drawing.Size(719, 388);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
