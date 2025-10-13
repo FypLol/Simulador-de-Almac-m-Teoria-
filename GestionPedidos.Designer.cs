@@ -131,7 +131,6 @@
             this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "➕ Agregar Pedido";
             this.btnAgregar.UseVisualStyleBackColor = false;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnDespachar
             // 
