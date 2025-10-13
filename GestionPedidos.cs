@@ -16,7 +16,7 @@ namespace GestionPedidos
             contadorPedidos = 0;
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+       /* private void btnAgregar_Click(object sender, EventArgs e)
         {
             // Solicitar el nombre del pedido al usuario
             string nombrePedido = Microsoft.VisualBasic.Interaction.InputBox(
@@ -44,7 +44,7 @@ namespace GestionPedidos
                               MessageBoxIcon.Information);
             }
         }
-
+       */
         private void btnDespachar_Click(object sender, EventArgs e)
         {
             if (colaPedidos.Count > 0)
