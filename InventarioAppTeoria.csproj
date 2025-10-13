@@ -126,5 +126,11 @@
   <ItemGroup>
     <None Include="Resources\png-transparent-computer-icons-user-profile-login-user-heroes-sphere-black-thumbnail.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ovalo naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ovalo naranja2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

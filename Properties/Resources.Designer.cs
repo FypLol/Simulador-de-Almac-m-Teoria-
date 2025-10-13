@@ -83,6 +83,26 @@ namespace InventarioAppTeoria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ovalo_naranja {
+            get {
+                object obj = ResourceManager.GetObject("ovalo naranja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ovalo_naranja2 {
+            get {
+                object obj = ResourceManager.GetObject("ovalo naranja2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_transparent_computer_icons_user_profile_login_user_heroes_sphere_black_thumbnail {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-computer-icons-user-profile-login-user-heroes-sphere-black-thumbn" +

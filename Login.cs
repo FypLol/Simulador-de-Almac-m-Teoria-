@@ -23,5 +23,14 @@ namespace InventarioAppTeoria
             
         }
 
+        private void txt_contraseña_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_iniciar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
