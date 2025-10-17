@@ -109,11 +109,11 @@
             this.lstPedidosEspera.BackColor = System.Drawing.Color.White;
             this.lstPedidosEspera.Font = new System.Drawing.Font("Consolas", 10F);
             this.lstPedidosEspera.FormattingEnabled = true;
-            this.lstPedidosEspera.ItemHeight = 23;
+            this.lstPedidosEspera.ItemHeight = 15;
             this.lstPedidosEspera.Location = new System.Drawing.Point(11, 222);
             this.lstPedidosEspera.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.lstPedidosEspera.Name = "lstPedidosEspera";
-            this.lstPedidosEspera.Size = new System.Drawing.Size(421, 96);
+            this.lstPedidosEspera.Size = new System.Drawing.Size(421, 94);
             this.lstPedidosEspera.TabIndex = 4;
             this.lstPedidosEspera.SelectedIndexChanged += new System.EventHandler(this.lstPedidosEspera_SelectedIndexChanged);
             // 
@@ -131,6 +131,7 @@
             this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "➕ Agregar Pedido";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnDespachar
             // 

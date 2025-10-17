@@ -15,36 +15,37 @@ namespace GestionPedidos
             colaPedidos = new Queue<string>();
             contadorPedidos = 0;
         }
+        #region 
+        /* private void btnAgregar_Click(object sender, EventArgs e)
+         {
+             // Solicitar el nombre del pedido al usuario
+             string nombrePedido = Microsoft.VisualBasic.Interaction.InputBox(
+                 "Ingrese la descripción del pedido:",
+                 "Nuevo Pedido por confirmar",
+                 "");
 
-       /* private void btnAgregar_Click(object sender, EventArgs e)
-        {
-            // Solicitar el nombre del pedido al usuario
-            string nombrePedido = Microsoft.VisualBasic.Interaction.InputBox(
-                "Ingrese la descripción del pedido:",
-                "Nuevo Pedido por confirmar",
-                "");
+             if (!string.IsNullOrWhiteSpace(nombrePedido))
+             {
+                 contadorPedidos++;
+                 string pedido = $"Pedido #{contadorPedidos} - {nombrePedido}";
 
-            if (!string.IsNullOrWhiteSpace(nombrePedido))
-            {
-                contadorPedidos++;
-                string pedido = $"Pedido #{contadorPedidos} - {nombrePedido}";
+                 // Agregar a la cola
+                 colaPedidos.Enqueue(pedido);
 
-                // Agregar a la cola
-                colaPedidos.Enqueue(pedido);
+                 // Agregar a la lista visual
+                 lstPedidosEspera.Items.Add(pedido);
 
-                // Agregar a la lista visual
-                lstPedidosEspera.Items.Add(pedido);
+                 // Actualizar interfaz
+                 ActualizarSiguiente();
 
-                // Actualizar interfaz
-                ActualizarSiguiente();
-
-                MessageBox.Show($"Pedido agregado exitosamente!\nTotal en cola: {colaPedidos.Count}",
-                              "Éxito",
-                              MessageBoxButtons.OK,
-                              MessageBoxIcon.Information);
-            }
-        }
-       */
+                 MessageBox.Show($"Pedido agregado exitosamente!\nTotal en cola: {colaPedidos.Count}",
+                               "Éxito",
+                               MessageBoxButtons.OK,
+                               MessageBoxIcon.Information);
+             }
+         }
+        */
+        #endregion
         private void btnDespachar_Click(object sender, EventArgs e)
         {
             if (colaPedidos.Count > 0)
@@ -94,6 +95,11 @@ namespace GestionPedidos
         }
 
         private void lstPedidosEspera_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
         {
 
         }
