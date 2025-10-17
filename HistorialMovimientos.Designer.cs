@@ -28,76 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBoxMovimientos = new System.Windows.Forms.ListBox();
-            this.btnAgregarMovimiento = new System.Windows.Forms.Button();
-            this.btnDeshacerMovimiento = new System.Windows.Forms.Button();
-            this.btnVerMasMovimientos = new System.Windows.Forms.Button();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblUltimos = new System.Windows.Forms.Label();
+            this.lblUltimoss = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // listBoxMovimientos
+            // lblTitulo
             // 
-            this.listBoxMovimientos.FormattingEnabled = true;
-            this.listBoxMovimientos.Location = new System.Drawing.Point(41, 11);
-            this.listBoxMovimientos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.listBoxMovimientos.Name = "listBoxMovimientos";
-            this.listBoxMovimientos.Size = new System.Drawing.Size(607, 303);
-            this.listBoxMovimientos.TabIndex = 0;
-            this.listBoxMovimientos.SelectedIndexChanged += new System.EventHandler(this.listBoxMovimientos_SelectedIndexChanged);
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Cooper Black", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.Linen;
+            this.lblTitulo.Location = new System.Drawing.Point(45, 27);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(429, 32);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "📦   Historial de MovimientoS";
+            this.lblTitulo.Click += new System.EventHandler(this.lblTitulo_Click);
             // 
-            // btnAgregarMovimiento
+            // lblUltimos
             // 
-            this.btnAgregarMovimiento.Location = new System.Drawing.Point(41, 46);
-            this.btnAgregarMovimiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnAgregarMovimiento.Name = "btnAgregarMovimiento";
-            this.btnAgregarMovimiento.Size = new System.Drawing.Size(154, 32);
-            this.btnAgregarMovimiento.TabIndex = 1;
-            this.btnAgregarMovimiento.Text = "Agregar Movimiento";
-            this.btnAgregarMovimiento.UseVisualStyleBackColor = true;
-            this.btnAgregarMovimiento.Click += new System.EventHandler(this.btnAgregarMovimiento_Click);
+            this.lblUltimos.AutoSize = true;
+            this.lblUltimos.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUltimos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblUltimos.Location = new System.Drawing.Point(46, 96);
+            this.lblUltimos.Name = "lblUltimos";
+            this.lblUltimos.Size = new System.Drawing.Size(139, 22);
+            this.lblUltimos.TabIndex = 1;
+            this.lblUltimos.Text = "Últimos Retiros:";
             // 
-            // btnDeshacerMovimiento
+            // lblUltimoss
             // 
-            this.btnDeshacerMovimiento.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnDeshacerMovimiento.Location = new System.Drawing.Point(231, 41);
-            this.btnDeshacerMovimiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnDeshacerMovimiento.Name = "btnDeshacerMovimiento";
-            this.btnDeshacerMovimiento.Size = new System.Drawing.Size(154, 37);
-            this.btnDeshacerMovimiento.TabIndex = 2;
-            this.btnDeshacerMovimiento.Text = "Deshacer Movimiento";
-            this.btnDeshacerMovimiento.UseVisualStyleBackColor = true;
-            this.btnDeshacerMovimiento.Click += new System.EventHandler(this.btnDeshacerMovimiento_Click);
-            // 
-            // btnVerMasMovimientos
-            // 
-            this.btnVerMasMovimientos.Location = new System.Drawing.Point(441, 50);
-            this.btnVerMasMovimientos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnVerMasMovimientos.Name = "btnVerMasMovimientos";
-            this.btnVerMasMovimientos.Size = new System.Drawing.Size(154, 28);
-            this.btnVerMasMovimientos.TabIndex = 3;
-            this.btnVerMasMovimientos.Text = "Ver Más Movimientos";
-            this.btnVerMasMovimientos.UseVisualStyleBackColor = true;
+            this.lblUltimoss.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUltimoss.FormattingEnabled = true;
+            this.lblUltimoss.ItemHeight = 22;
+            this.lblUltimoss.Location = new System.Drawing.Point(50, 137);
+            this.lblUltimoss.Name = "lblUltimoss";
+            this.lblUltimoss.Size = new System.Drawing.Size(217, 92);
+            this.lblUltimoss.TabIndex = 2;
             // 
             // frmHistorialMovimientos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnVerMasMovimientos);
-            this.Controls.Add(this.btnDeshacerMovimiento);
-            this.Controls.Add(this.btnAgregarMovimiento);
-            this.Controls.Add(this.listBoxMovimientos);
+            this.BackColor = System.Drawing.Color.Navy;
+            this.ClientSize = new System.Drawing.Size(1334, 866);
+            this.Controls.Add(this.lblUltimoss);
+            this.Controls.Add(this.lblUltimos);
+            this.Controls.Add(this.lblTitulo);
+            this.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "frmHistorialMovimientos";
-            this.Text = "Historial de Movimientos";
+            this.Text = "     Historial de Movimientos";
             this.Load += new System.EventHandler(this.frmHistorialMovimientos_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBoxMovimientos;
-        private System.Windows.Forms.Button btnAgregarMovimiento;
-        private System.Windows.Forms.Button btnDeshacerMovimiento;
-        private System.Windows.Forms.Button btnVerMasMovimientos;
+        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Label lblUltimos;
+        private System.Windows.Forms.ListBox lblUltimoss;
     }
 }
