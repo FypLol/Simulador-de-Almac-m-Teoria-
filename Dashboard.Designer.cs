@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashboard));
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_gestionPedido = new System.Windows.Forms.Button();
+            this.btn_gestionInventario = new System.Windows.Forms.Button();
+            this.btn_historial = new System.Windows.Forms.Button();
             this.lbl_menuprincipal = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -43,60 +43,60 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
-            // button3
+            // btn_gestionPedido
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.LightSalmon;
-            this.button3.Location = new System.Drawing.Point(94, 105);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(257, 62);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "GESTION DE PEDIDOS";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_gestionPedido.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_gestionPedido.ForeColor = System.Drawing.Color.LightSalmon;
+            this.btn_gestionPedido.Location = new System.Drawing.Point(70, 85);
+            this.btn_gestionPedido.Name = "btn_gestionPedido";
+            this.btn_gestionPedido.Size = new System.Drawing.Size(193, 50);
+            this.btn_gestionPedido.TabIndex = 2;
+            this.btn_gestionPedido.Text = "GESTION DE PEDIDOS";
+            this.btn_gestionPedido.UseVisualStyleBackColor = true;
+            this.btn_gestionPedido.Click += new System.EventHandler(this.btn_gestionPedido_Click);
             // 
-            // button2
+            // btn_gestionInventario
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.LightSalmon;
-            this.button2.Location = new System.Drawing.Point(267, 227);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(257, 62);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "GESTION DE INVENTARIO";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_gestionInventario.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_gestionInventario.ForeColor = System.Drawing.Color.LightSalmon;
+            this.btn_gestionInventario.Location = new System.Drawing.Point(200, 184);
+            this.btn_gestionInventario.Name = "btn_gestionInventario";
+            this.btn_gestionInventario.Size = new System.Drawing.Size(193, 50);
+            this.btn_gestionInventario.TabIndex = 1;
+            this.btn_gestionInventario.Text = "GESTION DE INVENTARIO";
+            this.btn_gestionInventario.UseVisualStyleBackColor = true;
+            this.btn_gestionInventario.Click += new System.EventHandler(this.btn_gestionInventario_Click);
             // 
-            // button1
+            // btn_historial
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.LightSalmon;
-            this.button1.Location = new System.Drawing.Point(481, 105);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(257, 62);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "HISTORIAL DE MOVIMIENTOS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_historial.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_historial.ForeColor = System.Drawing.Color.LightSalmon;
+            this.btn_historial.Location = new System.Drawing.Point(361, 85);
+            this.btn_historial.Name = "btn_historial";
+            this.btn_historial.Size = new System.Drawing.Size(193, 50);
+            this.btn_historial.TabIndex = 0;
+            this.btn_historial.Text = "HISTORIAL DE MOVIMIENTOS";
+            this.btn_historial.UseVisualStyleBackColor = true;
+            this.btn_historial.Click += new System.EventHandler(this.btn_hitorial_Click);
             // 
             // lbl_menuprincipal
             // 
             this.lbl_menuprincipal.AutoSize = true;
             this.lbl_menuprincipal.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_menuprincipal.ForeColor = System.Drawing.Color.DarkOrange;
-            this.lbl_menuprincipal.Location = new System.Drawing.Point(260, 9);
-            this.lbl_menuprincipal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_menuprincipal.Location = new System.Drawing.Point(195, 7);
             this.lbl_menuprincipal.Name = "lbl_menuprincipal";
-            this.lbl_menuprincipal.Size = new System.Drawing.Size(287, 40);
+            this.lbl_menuprincipal.Size = new System.Drawing.Size(231, 31);
             this.lbl_menuprincipal.TabIndex = 1;
             this.lbl_menuprincipal.Text = "MENU PRINCIPAL";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(9, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(54, 40);
+            this.pictureBox1.Size = new System.Drawing.Size(40, 32);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -104,9 +104,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(23, 95);
+            this.pictureBox2.Location = new System.Drawing.Point(17, 77);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(64, 72);
+            this.pictureBox2.Size = new System.Drawing.Size(48, 58);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -114,9 +115,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(178, 217);
+            this.pictureBox3.Location = new System.Drawing.Point(134, 176);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(64, 72);
+            this.pictureBox3.Size = new System.Drawing.Size(48, 58);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
@@ -124,28 +126,28 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(410, 95);
+            this.pictureBox4.Location = new System.Drawing.Point(308, 77);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(64, 72);
+            this.pictureBox4.Size = new System.Drawing.Size(48, 58);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
             // 
             // frmDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(814, 394);
+            this.ClientSize = new System.Drawing.Size(610, 320);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btn_historial);
+            this.Controls.Add(this.btn_gestionPedido);
             this.Controls.Add(this.lbl_menuprincipal);
-            this.Controls.Add(this.button2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.btn_gestionInventario);
             this.Name = "frmDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
@@ -159,9 +161,9 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_gestionPedido;
+        private System.Windows.Forms.Button btn_gestionInventario;
+        private System.Windows.Forms.Button btn_historial;
         private System.Windows.Forms.Label lbl_menuprincipal;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;

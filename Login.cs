@@ -30,7 +30,18 @@ namespace InventarioAppTeoria
 
         private void btn_iniciar_Click(object sender, EventArgs e)
         {
-
+           string usuario = txt_usuario.Text;
+              string contraseña = txt_contraseña.Text;
+            if (usuario == "admin" && contraseña == "password")
+            {
+                frmDashboard dashboard = new frmDashboard();
+                dashboard.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+            }
         }
     }
 }
