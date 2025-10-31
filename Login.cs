@@ -13,8 +13,8 @@ namespace InventarioAppTeoria
 {
     public partial class frm_Login : Form
     {
-        static string conexionString = "server = DESKTOP-HBB5D0V\\SQLEXPRESS ; database = master; integrated security= true";
-        SqlConnection conexion = new SqlConnection(conexionString);
+       // static string conexionString = "server = DESKTOP-HBB5D0V\\SQLEXPRESS ; database = master; integrated security= true";
+        //SqlConnection conexion = new SqlConnection(conexionString);
         public frm_Login()
         {
             InitializeComponent();
@@ -36,10 +36,11 @@ namespace InventarioAppTeoria
             
             string usuario = txt_usuario.Text;
               string contraseña = txt_contraseña.Text;
-            if (usuario == "admin" && contraseña == "password")
+            if (usuario == "admin" && contraseña == "123")
             {
-                clsConexion objetoConexion = new clsConexion();
-                objetoConexion.establecerConexion();
+               // clsConexion objetoConexion = new clsConexion();
+                //objetoConexion.establecerConexion();
+
                 frmDashboard dashboard = new frmDashboard();
                 dashboard.Show();
 
