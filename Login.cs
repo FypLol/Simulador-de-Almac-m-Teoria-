@@ -7,14 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
+
 
 namespace InventarioAppTeoria
 {
     public partial class frm_Login : Form
     {
-       // static string conexionString = "server = DESKTOP-HBB5D0V\\SQLEXPRESS ; database = master; integrated security= true";
-        //SqlConnection conexion = new SqlConnection(conexionString);
+      
         public frm_Login()
         {
             InitializeComponent();
@@ -38,9 +37,7 @@ namespace InventarioAppTeoria
               string contraseña = txt_contraseña.Text;
             if (usuario == "admin" && contraseña == "123")
             {
-               // clsConexion objetoConexion = new clsConexion();
-                //objetoConexion.establecerConexion();
-
+              
                 frmDashboard dashboard = new frmDashboard();
                 dashboard.Show();
 
